@@ -211,7 +211,7 @@ const deletePostHandler=(e)=>{
               isAccount= {isAccount}
               />
             )) :
-            <Typography > No comments yet</Typography>
+            <Typography > No Comments yet</Typography>
           }
 
         </div>
