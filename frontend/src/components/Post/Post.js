@@ -202,8 +202,8 @@ const deletePostHandler=(e)=>{
             comments.length >0 ? comments.map((item)=>(
               <CommentCard 
               userId= {item.user._id}
-              userName= {user.name}
-              avatar= {user.avatar.url}
+              userName= {item.user.name}
+              avatar= {item.user.avatar.url}
               comment= {item.comment}
               commentId= {item._id}
               postId= {postId}
