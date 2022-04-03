@@ -1,0 +1,28 @@
+.loader{
+
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.883);
+    max-width: 100%;
+
+}
+
+.loaderBlock{
+
+    border-bottom: 3px solid black;
+    padding: 4vmax;
+    border-radius: 50%;
+    animation: loader 500ms linear  infinite ;
+}
+
+
+@keyframes loader {
+
+    to{
+        transform: rotate(360deg);
+    }
+    
+
+}
